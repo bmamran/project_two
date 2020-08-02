@@ -1,0 +1,30 @@
+@media (max-width: 1199.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 767.98px) { ... }
+
+/* X-small */
+@media (max-width: 575.98px) { 
+    .navbar-toggler{
+        color: tomato;
+        border: 1px solid red;
+    }
+    .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .nav .nav-item .nav-link {
+        font-size: 14px;
+        color: brown;
+        font-weight: 500;
+        padding-bottom: 0;
+    }
+ }
